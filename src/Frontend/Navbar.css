@@ -1,0 +1,91 @@
+/* ====== COLOR VARIABLES ====== */
+:root {
+    --navbar-bg: #1A4A2C;
+    /* navbar background (matches mockup) */
+    --btn-green: #2E6B3E;
+    /* register / CTA button green */
+    --btn-green-dark: #145A32;
+    /* sign up dropdown toggle (slightly darker) */
+    --dark-white: rgba(255, 255, 255, 0.85);
+    /* "dark white" text for nav links */
+    --pure-white: #ffffff;
+}
+
+/* NAVBAR HEIGHT — makes the navbar a bit taller (not too much) */
+.custom-navbar {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.nav-link-custom {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-size: 1.05rem;
+    /* 👈 naya add kiya - thoda bada font */
+    font-weight: 500;
+    /* 👈 naya add kiya - halka bold */
+    transition: all 0.2s ease-in-out;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+/* HOVER EFFECT */
+.nav-link-custom:hover {
+    color: var(--pure-white) !important;
+    background-color: rgba(255, 255, 255, 0.18);
+}
+
+/* ACTIVE / FOCUS */
+.nav-link-custom:focus,
+.nav-link-custom:active {
+    color: var(--pure-white) !important;
+    background-color: rgba(255, 255, 255, 0.28);
+}
+
+/* 🔥 SIGN UP DROPDOWN TOGGLE (the "button" itself) */
+/* NavDropdown renders the toggle as a child <a class="dropdown-toggle">
+   inside the wrapper we named "signup-dropdown" — so we target that child */
+.signup-dropdown .dropdown-toggle {
+    background-color: var(--btn-green-dark) !important;
+    color: var(--dark-white) !important;
+    border-radius: 6px !important;
+    padding: 6px 14px !important;
+    border: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.signup-dropdown .dropdown-toggle:hover,
+.signup-dropdown .dropdown-toggle:focus,
+.signup-dropdown.show .dropdown-toggle {
+    background-color: var(--btn-green) !important;
+    color: var(--pure-white) !important;
+}
+
+/* removes the default caret-color quirk so the arrow stays dark-white too */
+.signup-dropdown .dropdown-toggle::after {
+    color: var(--dark-white);
+    vertical-align: middle;
+}
+
+/* DROPDOWN MENU (CLEAN PREMIUM LOOK) */
+.dropdown-menu {
+    background-color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12) !important;
+    min-width: 160px;
+}
+
+/* dropdown item */
+.dropdown-item {
+    transition: 0.2s ease-in-out;
+    padding: 8px 16px;
+    color: #1A4A2C;
+    /* dark green text on white dropdown — keeps contrast since menu bg is white, not navbar */
+}
+
+/* hover effect */
+.dropdown-item:hover {
+    background-color: rgba(30, 86, 49, 0.15) !important;
+    color: #1e5631 !important;
+    border-radius: 6px;
+}

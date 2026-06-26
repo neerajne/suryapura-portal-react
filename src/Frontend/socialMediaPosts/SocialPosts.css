@@ -1,0 +1,138 @@
+.div-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 280px;
+    margin-bottom: 20px;
+    color: #2E6B3E;
+}
+
+.social-post-card {
+    margin-left: 100px;
+    position: relative;
+    width: 36rem;
+    height: 32rem;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 80px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.social-post-logo {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.social-post-brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-post-brand-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2E6B3E;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.social-post-brand-tagline {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #2E6B3E;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.div-heading {
+    width: 100%;
+    color: #2E6B3E;
+    margin-top: 10px;
+    /* added spacing */
+    margin-bottom: 18px;
+}
+
+.social-post-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #2E6B3E;
+    line-height: 1.3;
+    text-align: left;
+    margin: 0;
+}
+
+.div-list {
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+.social-post-list {
+    margin: 0;
+    padding: 0;
+    padding-left: 18px;
+    list-style-position: outside;
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1rem;
+   
+}
+
+.social-post-list li {
+    display: list-item;
+    margin-bottom: 10px;
+    margin-left: 0;
+    white-space: normal;
+    font-weight: 500;
+    color: #1A4A2C;
+}
+
+.social-post-content {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 28px; */
+    padding: 28px 28px 0 28px;
+}
+
+.div-footer {
+    margin-top: auto;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    border-radius: 10px;
+    background-color: #2e6b3e;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    width: calc(100% + 56px);
+    /* full width expansion */
+    margin-left: -28px;
+    /* align with card edges */
+    margin-bottom: 0;
+}
+
+.social-post-footer-title {
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.social-post-footer-sub {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
