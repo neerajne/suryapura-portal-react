@@ -1,7 +1,6 @@
 import Card from "react-bootstrap/Card";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import developmentwork from "../../assets/developmentwork.png";
 import "./DevelopmentWork.css";
 import panchayat from "..//../assets/panchayat.jpg";
 function Panchayat() {

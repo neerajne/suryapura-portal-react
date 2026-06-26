@@ -1,7 +1,6 @@
 import Card from "react-bootstrap/Card";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import developmentwork from "../../assets/developmentwork.png";
 import "./RoadandConstruction.css";
 import road from "..//../assets/road.png";
 function RoadandConstruction() {
