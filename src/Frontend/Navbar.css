@@ -72,25 +72,30 @@
     border-radius: 6px;
 }
 
-@media (min-width: 992px) and (max-width: 1230px) {
+@media (min-width: 992px) and (max-width: 1400px) {
     .nav-link-custom {
-        font-size: 0.85rem;
-        padding: 6px 6px;
+        font-size: 0.78rem;
+        padding: 6px 5px;
         white-space: nowrap;
     }
 
     .navbar-nav {
-        gap: 2px !important;
+        gap: 0px !important;
     }
 
     .navbar-brand {
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
         white-space: nowrap;
     }
 
+    .navbar-brand img {
+        width: 26px !important;
+        height: 26px !important;
+    }
+
     .signup-dropdown .dropdown-toggle {
-        padding: 6px 10px !important;
-        font-size: 0.85rem;
+        padding: 6px 8px !important;
+        font-size: 0.78rem;
         white-space: nowrap;
     }
 }

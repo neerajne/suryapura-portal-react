@@ -1,6 +1,5 @@
 import React from "react";
 import "./HeroBottom.css";
-// import education from "./education.png"; // apna image path
 import familyLogo from "../../assets/familyLogo.webp";
 import developmentLogo from "../../assets/developmentLogo.png";
 import schoolLogo from "../../assets/schoolLogo.png";

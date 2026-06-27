@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navbar.css";
-import sunlogo from "../assets/sunlogoNavbar.jpg"
+import sunlogo from "../assets/sunlogoNavbar.jpg";
 
 function MyNavbar() {
   return (
@@ -14,8 +14,7 @@ function MyNavbar() {
       variant="dark"
       sticky="top"
     >
-      <Container>
-        {/* BRAND (bigger font) */}
+      <Container fluid>
         <Navbar.Brand
           href="#home"
           style={{
@@ -35,7 +34,6 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
-          {/* NAV LINKS */}
           <Nav
             className="ms-auto d-flex gap-3 align-items-center text-center"
             style={{ fontSize: "16.5px" }}
@@ -72,7 +70,7 @@ function MyNavbar() {
               align="end"
               title="Sign up"
               id="basic-nav-dropdown"
-              className="signup-dropdown" /* wraps the toggle, see CSS targeting via child selector below */
+              className="signup-dropdown"
             >
               <NavDropdown.Item href="#login">Login</NavDropdown.Item>
               <NavDropdown.Item href="#register">Register</NavDropdown.Item>
