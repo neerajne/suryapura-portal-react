@@ -164,4 +164,8 @@
     .hero-commitment-list li {
         font-size: 0.9rem;
     }
+
+    .hero-section {
+        background-position: top center;
+    }
 }

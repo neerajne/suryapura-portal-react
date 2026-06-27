@@ -7,11 +7,12 @@
     margin-bottom: 20px;
     color: #2E6B3E;
 }
+
 .social-post-card {
     position: relative;
-            width: 100%;
-            max-width: 36rem;
-            margin: 20px;
+    width: 100%;
+    max-width: 26rem;
+    margin: 12px;
     height: 32rem;
     border-radius: 16px;
     overflow: hidden;
@@ -53,7 +54,6 @@
     width: 100%;
     color: #2E6B3E;
     margin-top: 10px;
-    /* added spacing */
     margin-bottom: 18px;
 }
 
@@ -80,7 +80,6 @@
     display: block;
     margin-top: 10px;
     font-size: 1.1rem;
-   
 }
 
 .social-post-list li {
@@ -98,7 +97,6 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* padding: 28px; */
     padding: 28px 28px 0 28px;
 }
 
@@ -116,9 +114,7 @@
     gap: 4px;
 
     width: calc(100% + 56px);
-    /* full width expansion */
     margin-left: -28px;
-    /* align with card edges */
     margin-bottom: 0;
 }
 
@@ -172,7 +168,7 @@
     }
 
     .social-post-title br {
-        display: none;   /* mobile pe chhoti screen par force-break hata diya, natural wrap hoga */
+        display: none;
     }
 
     .social-post-brand-name {
