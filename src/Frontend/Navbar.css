@@ -109,3 +109,14 @@
         width: 100%;
     }
 }
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 0.9rem !important;
+    }
+
+    .navbar-brand img {
+        width: 26px !important;
+        height: 26px !important;
+    }
+}
