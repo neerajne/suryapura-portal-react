@@ -135,3 +135,61 @@
     font-weight: 600;
     margin: 0;
 }
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+    .social-post-card {
+        height: auto;
+        min-height: 28rem;
+        margin: 10px;
+    }
+
+    .social-post-title {
+        font-size: 1.5rem;
+    }
+
+    .social-post-brand-name {
+        font-size: 1.3rem;
+    }
+
+    .social-post-list {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-post-card {
+        margin: 8px 0;
+        max-width: 100%;
+    }
+
+    .social-post-content {
+        padding: 20px 20px 0 20px;
+    }
+
+    .social-post-title {
+        font-size: 1.3rem;
+    }
+
+    .social-post-title br {
+        display: none;   /* mobile pe chhoti screen par force-break hata diya, natural wrap hoga */
+    }
+
+    .social-post-brand-name {
+        font-size: 1.15rem;
+    }
+
+    .social-post-logo {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .social-post-list {
+        font-size: 0.95rem;
+    }
+
+    .div-footer {
+        width: calc(100% + 40px);
+        margin-left: -20px;
+    }
+}

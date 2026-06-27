@@ -49,3 +49,20 @@
     height: 180px;
     object-fit: contain;
 }
+@media (max-width: 480px) {
+    .future-card .card-img-top {
+        height: 150px;
+    }
+
+    .future-card-title {
+        font-size: 1.2rem;
+    }
+
+    .future-card-text {
+        font-size: 0.95rem;
+    }
+
+    .future-card-link {
+        font-size: 1rem;
+    }
+}

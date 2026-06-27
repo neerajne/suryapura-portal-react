@@ -52,3 +52,14 @@
     }
 
 }
+
+@media (max-width: 480px) {
+    .feature-card img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .feature-card p {
+        font-size: 15px;
+    }
+}
