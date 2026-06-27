@@ -5,7 +5,7 @@ import "./DevelopmentWork.css";
 import digitalIdentity from "..//../assets/digitalIdentity.png";
 function DigitalIdentity() {
   return (
-    <Card className="future-card" style={{ width: "16rem" }}>
+    <Card className="future-card">
       <Card.Img variant="top" src={digitalIdentity} />
       <Card.Body>
         <Card.Title className="future-card-title">Digital Identity</Card.Title>

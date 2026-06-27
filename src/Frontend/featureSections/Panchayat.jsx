@@ -5,7 +5,7 @@ import "./DevelopmentWork.css";
 import panchayat from "..//../assets/panchayat.jpg";
 function Panchayat() {
   return (
-    <Card className="future-card" style={{ width: "16rem" }}>
+    <Card className="future-card">
       <Card.Img variant="top" src={panchayat} />
       <Card.Body>
         <Card.Title className="future-card-title">Panchayat</Card.Title>

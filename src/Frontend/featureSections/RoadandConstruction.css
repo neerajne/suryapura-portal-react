@@ -1,15 +1,13 @@
 .future-card {
-    width: 20rem;
+    width: 100%;
+    max-width: 20rem;
     border-radius: 16px;
     overflow: hidden;
     background-color: #EAF3E8;
-    /* 👈 soft sage green tint - theme se match, white se clearly alag */
     border: 1px solid #C9DFC4;
-    /* halka green border, thoda zyada visible */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
     transition: all 0.2s ease-in-out;
 }
-
 .future-card .card-img-top {
     background-color: #ffffff !important;
     height: 180px;
@@ -21,11 +19,9 @@
     font-weight: 700;
     color: #1A4A2C;
     background-color: #EAF3E8;
-    /* 👈 title ke peeche halka green bg */
     padding: 8px 12px;
     border-radius: 6px;
     display: inline-block;
-    /* sirf text jitni width le, full row nahi */
 }
 
 .future-card-text {
@@ -33,7 +29,6 @@
     color: #333333;
     line-height: 1.5;
     background-color: #F4F8F1;
-    /* 👈 description ke peeche aur halka tint */
     padding: 10px 12px;
     border-radius: 6px;
 }
@@ -50,12 +45,10 @@
     border-radius: 6px;
     transition: all 0.25s ease-in-out;
     margin-left: 0;
-    /* 👈 ab margin se control karte hain, left se nahi */
 }
 
 .future-card-link:hover {
     background-color: #2E6B3E;
     color: #ffffff !important;
     margin-left: -8px;
-    /* 👈 yeh shift karega left ki taraf, reliably */
 }

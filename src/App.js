@@ -26,7 +26,7 @@ function App() {
       <div>
         <Herobottom />
       </div>
-      <div style={{ display: "flex" }}>
+      <div className="social-posts-container">
         <FarmerPost />
         <EducationPost />
       </div>

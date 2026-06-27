@@ -5,7 +5,7 @@ import "./Educationcard.css";
 import education from "..//../assets/education2.png"
 function Educationcard() {
   return (
-    <Card className="future-card" style={{ width: "16rem" }}>
+    <Card className="future-card">
       <Card.Img variant="top" src={education} />
       <Card.Body>
         <Card.Title className="future-card-title">Education</Card.Title>

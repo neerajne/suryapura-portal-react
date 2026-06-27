@@ -5,7 +5,7 @@ import "./RoadandConstruction.css";
 import road from "..//../assets/road.png";
 function RoadandConstruction() {
   return (
-    <Card className="future-card" style={{ width: "16rem" }}>
+    <Card className="future-card">
       <Card.Img variant="top" src={road} />
       <Card.Body>
         <Card.Title className="future-card-title">

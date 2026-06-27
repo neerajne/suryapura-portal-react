@@ -7,18 +7,17 @@
     margin-bottom: 20px;
     color: #2E6B3E;
 }
-
 .social-post-card {
-    margin-left: 100px;
     position: relative;
-    width: 36rem;
+            width: 100%;
+            max-width: 36rem;
+            margin: 20px;
     height: 32rem;
     border-radius: 16px;
     overflow: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 80px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
 }
 

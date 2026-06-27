@@ -6,13 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+.social-posts-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
 .cards-row {
   display: flex;
-  flex-wrap: nowrap;
-  /* chhoti screen pe wrap ho jayenge, overflow nahi hoga */
-  gap: 24px;
-  /* cards ke beech gap */
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
   padding: 40px 20px;
 }
 

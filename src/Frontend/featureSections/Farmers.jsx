@@ -6,7 +6,7 @@ import farmers from "..//../assets/farmers.jpg";
 
 function Farmers() {
   return (
-    <Card className="future-card" style={{ width: "16rem" }}>
+    <Card className="future-card">
       <Card.Img variant="top" src={farmers} />
       <Card.Body>
         <Card.Title className="future-card-title">Farmers</Card.Title>

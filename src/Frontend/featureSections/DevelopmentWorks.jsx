@@ -6,7 +6,7 @@ import "./DevelopmentWork.css";
 
 function DevelopmentWorks() {
   return (
-    <Card className="future-card" style={{ width: "16rem" }}>
+    <Card className="future-card">
       <Card.Img variant="top" src={developmentwork} />
       <Card.Body>
         <Card.Title className="future-card-title">Development Works</Card.Title>
