@@ -10,11 +10,13 @@ import DigitalIdentity from "./Frontend/featureSections/DigitalIdentity";
 import FarmerPost from "./Frontend/socialMediaPosts/FarmerPost";
 import EducationPost from "./Frontend/socialMediaPosts/EducationPost";
 import Herobottom from "./Frontend/heroBottom/Herobottom";
+
 function App() {
   return (
     <div className="App">
       <MyNavbar />
       <HeroSection />
+
       <div className="cards-row">
         <DevelopmentWorks />
         <Educationcard />
@@ -23,9 +25,9 @@ function App() {
         <Panchayat />
         <DigitalIdentity />
       </div>
-      <div>
-        <Herobottom />
-      </div>
+
+      <Herobottom />
+
       <div className="social-posts-container">
         <FarmerPost />
         <EducationPost />
