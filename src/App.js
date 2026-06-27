@@ -10,6 +10,7 @@ import DigitalIdentity from "./Frontend/featureSections/DigitalIdentity";
 import FarmerPost from "./Frontend/socialMediaPosts/FarmerPost";
 import EducationPost from "./Frontend/socialMediaPosts/EducationPost";
 import Herobottom from "./Frontend/heroBottom/Herobottom";
+import DevelopmentPost from "./Frontend/socialMediaPosts/DevelopmentPost";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <div className="social-posts-container">
         <FarmerPost />
         <EducationPost />
+        <DevelopmentPost/>
       </div>
     </div>
   );
